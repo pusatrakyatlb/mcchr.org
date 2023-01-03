@@ -16,8 +16,10 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Cover', name: 'cover', widget: 'image', default: 'media/hello.jpg' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
     sortable_fields: ['title', 'date']
   - name: 'pages'
     label: 'Pages'
@@ -29,6 +31,6 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
       - { label: 'Aliases', name: 'aliases', widget: 'list' }
     sortable_fields: ['title', 'date']
