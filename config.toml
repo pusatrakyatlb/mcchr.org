@@ -1,5 +1,5 @@
 baseurl = "https://example.com/"
-languageCode = "en-us"
+languageCode = "en"
 theme = "terminal"
 paginate = 5
 
