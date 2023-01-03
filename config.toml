@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseurl = "/"
 languageCode = "en"
 theme = "terminal"
 paginate = 5
