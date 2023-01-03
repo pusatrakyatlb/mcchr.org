@@ -1,14 +1,14 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: main
 media_folder: static/media
 public_folder: /media
 site_url: https://hugo.mcchr.org
 display_url: https://hugo.mcchr.org
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: 'posts'
+    label: 'Posts'
+    folder: 'content/posts'
     create: true
     slug: '{{slug}}'
     editor:
