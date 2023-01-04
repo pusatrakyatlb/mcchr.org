@@ -1,6 +1,6 @@
 ---
 type: post
-title: Religious Freedom Seminar Series
+title: Seminar Series on Freedom of Thought, Conscience, and Religion 2023
 tag:
   - litigation
 category: training
