@@ -7,9 +7,9 @@ public_folder: /media
 site_url: https://hugo.mcchr.org
 display_url: https://hugo.mcchr.org
 collections:
-  - name: 'posts'
-    label: 'Posts'
-    folder: 'content'
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/blog'
     create: true
     slug: '{{slug}}'
     editor:
@@ -52,6 +52,7 @@ collections:
         options:
           - { label: 'MCCHR Updates', value: 'updates' }
           - { label: 'MCCHR Events', value: 'events' }
+          - { label: 'MCCHR Training', value: 'training' }
           - { label: 'MCCHR Publications', value: 'publications' }
           - { label: 'MCCHR Campaigns', value: 'campaigns' }
           - { label: 'Human Rights News', value: 'news' }
