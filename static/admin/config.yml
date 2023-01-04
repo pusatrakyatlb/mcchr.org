@@ -7,8 +7,8 @@ public_folder: /media
 site_url: https://hugo.mcchr.org
 display_url: https://hugo.mcchr.org
 collections:
-  - name: 'blog'
-    label: 'Blog'
+  - name: 'posts'
+    label: 'Blog Posts'
     folder: 'content/blog'
     create: true
     slug: '{{slug}}'
@@ -59,8 +59,8 @@ collections:
     sortable_fields: 
       - title
       - date
-  - name: 'section'
-    label: 'Sections'
+  - name: 'sections'
+    label: 'Content Sections'
     folder: 'content'
     create: true
     slug: '{{slug}}'
