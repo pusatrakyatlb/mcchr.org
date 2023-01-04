@@ -61,6 +61,9 @@ collections:
     label: 'Content Sections'
     label_singular: 'Content Section'
     folder: 'content'
+    filter:
+      field: type
+      value: section
     create: true
     slug: '{{slug}}'
     editor:

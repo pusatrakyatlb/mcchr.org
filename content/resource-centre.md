@@ -8,5 +8,6 @@ aliases:
   - rc
   - space
   - library
+type: section
 ---
 M﻿CCHR Resource Centre

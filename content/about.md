@@ -3,6 +3,7 @@ title: About Us
 date: 2019-01-25
 author: Radek
 description: About MCCHR
+type: section
 ---
 
 # Hi there
