@@ -31,16 +31,16 @@ collections:
         name: 'date'
         widget: 'datetime'
       - label: 'Tags'
-        name: 'tags'
+        name: 'tag'
         widget: 'list'
         multiple: true
         options:
           - { label: 'Civic Education', value: 'education' }
           - { label: 'Strategic Litigation', value: 'litigation' }
           - { label: 'Law & Policy Reform', value: 'reform' }
-      - label: 'Categories'
-        name: 'categories'
-        widget: 'list'
+      - label: 'Category'
+        name: 'category'
+        widget: 'select'
         options:
           - { label: 'MCCHR Updates', value: 'updates' }
           - { label: 'MCCHR Events', value: 'events' }
