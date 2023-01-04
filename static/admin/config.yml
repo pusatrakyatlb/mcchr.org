@@ -20,6 +20,7 @@ collections:
       - label: 'Cover Image'
         name: 'cover'
         widget: 'image'
+        default: 'media/hello.jpg'
       - label: 'Body'
         name: 'body' 
         widget: 'markdown'
@@ -44,11 +45,11 @@ collections:
         name: 'category'
         widget: 'select'
         options:
-          - { label: 'Updates', value: 'updates' }
-          - { label: 'Events', value: 'events' }
-          - { label: 'Publications', value: 'publications' }
-          - { label: 'Campaigns', value: 'campaigns' }
-          - { label: 'News', value: 'news' }
+          - { label: 'MCCHR Updates', value: 'updates' }
+          - { label: 'MCCHR Events', value: 'events' }
+          - { label: 'MCCHR Publications', value: 'publications' }
+          - { label: 'MCCHR Campaigns', value: 'campaigns' }
+          - { label: 'Human Rights News', value: 'news' }
     sortable_fields: 
       - title
       - date
@@ -63,9 +64,6 @@ collections:
       - label: 'Title'
         name: 'title' 
         widget: 'string'
-      - label: 'Cover Image'
-        name: 'cover'
-        widget: 'image'
       - label: 'Body'
         name: 'body' 
         widget: 'markdown'
