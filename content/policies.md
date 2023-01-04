@@ -80,7 +80,7 @@ Malaysian Centre for Constitutionalism and Human Rights\
 6-2, Oval Damansara, Jalan Damansara\
 60000 Kuala Lumpur, Malaysia
 
-\-﻿--
+-﻿--
 
 # T﻿erms of Service
 
