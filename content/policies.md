@@ -74,7 +74,7 @@ We may update this privacy policy from time to time in order to reflect, for exa
 
 For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at [pusatrakyatlb@mcchr.org](mailto:pusatrakyatlb@mcchr.org) or by mail using the details provided below:
 
-A-3-8 Pantai Business Park\
-Jalan Pantai Baharu\
-59200 Kuala Lumpur\
-Malaysia
+M﻿CCHR\
+Malaysian Centre for Constitutionalism and Human Rights\
+6-2, Oval Damansara, Jalan Damansara\
+60000 Kuala Lumpur, Malaysia
