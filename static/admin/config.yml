@@ -10,7 +10,7 @@ collections:
   - name: 'posts'
     label: 'Blog Posts'
     label_singular: 'Blog Post'
-    folder: 'content/blog'
+    folder: 'content/posts'
     create: true
     slug: '{{slug}}'
     editor:
@@ -26,16 +26,6 @@ collections:
       - label: 'Body'
         name: 'body' 
         widget: 'markdown'
-      - label: 'Description'
-        name: 'description'
-        widget: 'string'
-        required: false
-      - label: 'Keywords'
-        name: 'keywords'
-        widget: 'list'
-      - label: 'Date & Time'
-        name: 'date'
-        widget: 'datetime'
       - label: 'Tags'
         name: 'tag'
         widget: 'select'
@@ -53,6 +43,17 @@ collections:
           - { label: 'MCCHR Publications', value: 'publications' }
           - { label: 'MCCHR Campaigns', value: 'campaigns' }
           - { label: 'Human Rights News', value: 'news' }
+      - label: 'Date & Time'
+        name: 'date'
+        widget: 'datetime'
+      - label: 'HTML Meta Description'
+        name: 'description'
+        widget: 'string'
+        required: false
+      - label: 'HTML Meta Keywords'
+        name: 'keywords'
+        widget: 'list'
+        required: false
     sortable_fields: 
       - title
       - date
@@ -76,19 +77,17 @@ collections:
         name: 'body' 
         widget: 'markdown'
         required: false
-      - label: 'Description'
-        name: 'description'
-        widget: 'string'
-      - label: 'Keywords'
-        name: 'keywords'
-        widget: 'list'
-        required: false
-      - label: 'Date & Time'
-        name: 'date'
-        widget: 'datetime'
       - label: 'Aliases'
         name: 'aliases'
         widget: 'list'
+      - label: 'HTML Meta Description'
+        name: 'description'
+        widget: 'string'
+        required: false
+      - label: 'HTML Meta Keywords'
+        name: 'keywords'
+        widget: 'list'
+        required: false
     sortable_fields: 
       - title
       - date
