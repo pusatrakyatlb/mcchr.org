@@ -125,11 +125,11 @@ collections:
         name: 'redirect' 
         widget: 'string'
         hint: 'To what URL do you want to redirect?'
-      - label: 'Source URL – mcchr.org'
+      - label: 'Source Path'
         name: 'title' 
         widget: 'string'
         pattern: ['^[a-zA-Z0-9_.-]*$', 'Letters and numbers only']
-        hint: 'What is the URL do you want to use?'
+        hint: 'What is the path on mcchr.org do you want to use for this redirect?'
     sortable_fields: 
       - title
       - date
