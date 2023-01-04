@@ -32,7 +32,7 @@ collections:
         widget: 'datetime'
       - label: 'Tags'
         name: 'tag'
-        widget: 'list'
+        widget: 'select'
         multiple: true
         options:
           - { label: 'Civic Education', value: 'education' }
