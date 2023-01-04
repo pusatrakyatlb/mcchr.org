@@ -9,29 +9,27 @@ display_url: https://hugo.mcchr.org
 collections:
   - name: 'posts'
     label: 'Blog Posts'
+    label_singular: 'Blog Post'
     folder: 'content/blog'
     create: true
     slug: '{{slug}}'
     editor:
       preview: false
     fields:
-      - label: 'Type' 
-        name: 'type' 
-        widget: 'hidden'
-        default: 'post'
       - label: 'Title' 
         name: 'title' 
         widget: 'string'
       - label: 'Cover Image'
         name: 'cover'
         widget: 'image'
-        default: '/media/hello.jpg'
+        required: false
       - label: 'Body'
         name: 'body' 
         widget: 'markdown'
       - label: 'Description'
         name: 'description'
         widget: 'string'
+        required: false
       - label: 'Keywords'
         name: 'keywords'
         widget: 'list'
@@ -52,7 +50,6 @@ collections:
         options:
           - { label: 'MCCHR Updates', value: 'updates' }
           - { label: 'MCCHR Events', value: 'events' }
-          - { label: 'MCCHR Training', value: 'training' }
           - { label: 'MCCHR Publications', value: 'publications' }
           - { label: 'MCCHR Campaigns', value: 'campaigns' }
           - { label: 'Human Rights News', value: 'news' }
@@ -61,28 +58,31 @@ collections:
       - date
   - name: 'sections'
     label: 'Content Sections'
+    label_singular: 'Content Section'
     folder: 'content'
     create: true
     slug: '{{slug}}'
     editor:
       preview: false
     fields:
-      - label: 'Type' 
-        name: 'type' 
-        widget: 'hidden'
-        default: 'page'
       - label: 'Title'
         name: 'title' 
         widget: 'string'
+      - label: 'Cover Image'
+        name: 'cover'
+        widget: 'image'
+        required: false
       - label: 'Body'
         name: 'body' 
         widget: 'markdown'
+        required: false
       - label: 'Description'
         name: 'description'
         widget: 'string'
       - label: 'Keywords'
         name: 'keywords'
         widget: 'list'
+        required: false
       - label: 'Date & Time'
         name: 'date'
         widget: 'datetime'
