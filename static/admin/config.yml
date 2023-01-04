@@ -14,38 +14,40 @@ collections:
     editor:
       preview: false
     fields:
-      - label: 'Title', 
-        name: 'title', 
+      - label: 'Title' 
+        name: 'title' 
         widget: 'string'
-      - label: 'Body', 
-        name: 'body', 
+      - label: 'Body'
+        name: 'body' 
         widget: 'markdown'
-      - label: 'Blurb', 
-        name: 'description', 
+      - label: 'Blurb'
+        name: 'description'
         widget: 'string'
-      - label: 'Cover Image', 
-        name: 'cover', 
-        widget: 'image', 
+      - label: 'Cover Image'
+        name: 'cover'
+        widget: 'image'
         default: 'media/hello.jpg'
-      - label: 'Date & Time', 
-        name: 'date', 
+      - label: 'Date & Time'
+        name: 'date'
         widget: 'datetime'
-      - label: 'Tags', 
-        name: 'tags', 
+      - label: 'Tags'
+        name: 'tags'
         widget: 'list'
-        multiple: true,
+        multiple: true
         options:
           - { label: 'Civic Education', value: 'education' }
           - { label: 'Strategic Litigation', value: 'litigation' }
           - { label: 'Law & Policy Reform', value: 'reform' }
-      - label: 'Categories', 
-        name: 'categories', 
+      - label: 'Categories'
+        name: 'categories'
         widget: 'list'
         options:
           - { label: 'MCCHR Updates', value: 'updates' }
           - { label: 'MCCHR Events', value: 'events' }
           - { label: 'Human Rights News', value: 'news' }
-    sortable_fields: ['title', 'date']
+    sortable_fields: 
+      - title
+      - date
   - name: 'pages'
     label: 'Pages'
     folder: 'content'
@@ -73,4 +75,6 @@ collections:
       - label: 'Aliases', 
         name: 'aliases', 
         widget: 'list'
-    sortable_fields: ['title', 'date']
+    sortable_fields: 
+      - title
+      - date
