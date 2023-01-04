@@ -8,8 +8,8 @@ site_url: https://hugo.mcchr.org
 display_url: https://hugo.mcchr.org
 collections:
   - name: 'posts'
-    label: 'Blog Posts'
-    label_singular: 'Blog Post'
+    label: 'Posts'
+    label_singular: 'Post'
     folder: 'content'
     filter:
       field: type
@@ -19,6 +19,10 @@ collections:
     editor:
       preview: false
     fields:
+      - label: 'Type'
+        name: 'type'
+        widget: 'hidden'
+        default: 'post'
       - label: 'Title' 
         name: 'title' 
         widget: 'string'
@@ -61,8 +65,8 @@ collections:
       - title
       - date
   - name: 'sections'
-    label: 'Content Sections'
-    label_singular: 'Content Section'
+    label: 'Sections'
+    label_singular: 'Section'
     folder: 'content'
     filter:
       field: type
@@ -72,6 +76,10 @@ collections:
     editor:
       preview: false
     fields:
+      - label: 'Type'
+        name: 'type'
+        widget: 'hidden'
+        default: 'section'
       - label: 'Title'
         name: 'title' 
         widget: 'string'
