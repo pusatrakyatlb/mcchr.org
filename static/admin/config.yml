@@ -1,5 +1,6 @@
 backend:
   name: github
+  repo: pusatrakyatlb/mcchr.org
   branch: main
 media_folder: static/media
 public_folder: /media
