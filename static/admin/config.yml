@@ -15,9 +15,10 @@ collections:
       field: type
       value: post
     create: true
-    slug: '{{year}}/{{month}}/{{day}}/{{slug}}'
+    slug: '{{year}}{{month}}{{day}}-{{slug}}'
     editor:
       preview: false
+    show_preview_links: true
     fields:
       - label: 'Type'
         name: 'type'
@@ -82,6 +83,7 @@ collections:
     slug: '{{slug}}'
     editor:
       preview: false
+    show_preview_links: true
     fields:
       - label: 'Type'
         name: 'type'
@@ -123,6 +125,8 @@ collections:
     slug: '{{slug}}'
     editor:
       preview: false
+    show_preview_links: false
+    search: false
     fields:
       - label: 'Type'
         name: 'type'
