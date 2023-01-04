@@ -10,7 +10,10 @@ collections:
   - name: 'posts'
     label: 'Blog Posts'
     label_singular: 'Blog Post'
-    folder: 'content/posts'
+    folder: 'content'
+    filter:
+      field: type
+      value: post
     create: true
     slug: '{{slug}}'
     editor:
