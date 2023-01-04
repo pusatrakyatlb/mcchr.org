@@ -128,7 +128,7 @@ collections:
       - label: 'Source URL – mcchr.org'
         name: 'title' 
         widget: 'string'
-        pattern: ['[^a-zA-Z0-9]+', 'Letters and numbers only']
+        pattern: ['^[a-zA-Z0-9_.-]*$', 'Letters and numbers only']
         hint: 'What is the URL do you want to use?'
     sortable_fields: 
       - title
