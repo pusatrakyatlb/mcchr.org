@@ -59,8 +59,8 @@ collections:
     sortable_fields: 
       - title
       - date
-  - name: 'pages'
-    label: 'Pages'
+  - name: 'section'
+    label: 'Sections'
     folder: 'content'
     create: true
     slug: '{{slug}}'
