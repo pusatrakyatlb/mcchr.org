@@ -15,7 +15,7 @@ collections:
       field: type
       value: post
     create: true
-    slug: '{{year}}{{month}}{{day}}-{{slug}}'
+    slug: '{{year}}/{{month}}/{{day}}/{{slug}}'
     editor:
       preview: false
     fields:
