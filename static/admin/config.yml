@@ -105,3 +105,31 @@ collections:
     sortable_fields: 
       - title
       - date
+  - name: 'redirects'
+    label: 'Redirects'
+    label_singular: 'redirect'
+    folder: 'content'
+    filter:
+      field: type
+      value: redirect
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Type'
+        name: 'type'
+        widget: 'hidden'
+        default: 'redirect'
+      - label: 'Target URL'
+        name: 'redirect' 
+        widget: 'string'
+        hint: 'To what URL do you want to redirect?'
+      - label: 'Source URL – mcchr.org'
+        name: 'title' 
+        widget: 'string'
+        pattern: '[^a-zA-Z0-9]+'
+        hint: 'What is the URL do you want to use?'
+    sortable_fields: 
+      - title
+      - date
