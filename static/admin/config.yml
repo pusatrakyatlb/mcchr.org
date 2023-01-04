@@ -70,7 +70,7 @@ collections:
         name: 'keywords'
         widget: 'list'
         required: false
-    summary: "{{title}}<br><small>Last updated on {{commit_date}} by {{commit_author}}</small>"
+    summary: "**{{title}}** --- *{{commit_author}} &middot; {{date | date('YYYY-MM-DD')}}*"
     sortable_fields: 
       - title
       - date
@@ -145,7 +145,7 @@ collections:
         name: 'keywords'
         widget: 'list'
         required: false
-    summary: "{{title}}<br><small>Last updated on {{commit_date}} by {{commit_author}}</small>"
+    summary: "**{{title}}** --- *{{commit_author}} &middot; {{date | date('YYYY-MM-DD')}}*"
     sortable_fields: 
       - title
       - date
@@ -176,7 +176,7 @@ collections:
         widget: 'string'
         pattern: ['^[a-zA-Z0-9_.-]*$', 'Letters and numbers only']
         hint: 'What is the path on mcchr.org do you want to use for this redirect?'
-    summary: "{{title}}<br><small>Last updated on {{commit_date}} by {{commit_author}}</small>"
+    summary: "**{{title}}** --- *{{commit_author}} &middot; {{date | date('YYYY-MM-DD')}}*"
     sortable_fields: 
       - title
       - date
