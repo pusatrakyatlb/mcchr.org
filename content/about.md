@@ -1,8 +1,9 @@
-+++
-title = "About"
-date = "2019-01-25"
-author = "Radek"
-+++
+---
+title: About Us
+date: 2019-01-25
+author: Radek
+description: About MCCHR
+---
 
 # Hi there
 
