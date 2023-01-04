@@ -15,7 +15,7 @@ collections:
       field: type
       value: post
     create: true
-    slug: '{{slug}}'
+    slug: '{{year}}{{month}}{{day}}-{{slug}}'
     editor:
       preview: false
     fields:
