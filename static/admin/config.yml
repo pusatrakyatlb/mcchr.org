@@ -70,7 +70,6 @@ collections:
         name: 'keywords'
         widget: 'list'
         required: false
-    summary: "**{{title}}** --- *{{commit_author}} &middot; {{date | date('YYYY-MM-DD')}}*"
     sortable_fields: 
       - title
       - date
@@ -90,15 +89,15 @@ collections:
       - label: 'MCCHR Campaigns'
         field: category
         pattern: 'campaigns'
-      - label: 'MCCHR Publications'
+      - label: 'MCCHR Events'
         field: category
-        pattern: 'publications'
-      - label: 'MCCHR Campaigns'
-        field: category
-        pattern: 'campaigns'
+        pattern: 'events'
       - label: 'MCCHR Training'
         field: category
         pattern: 'training'
+      - label: 'MCCHR Publications'
+        field: category
+        pattern: 'publications'
       - label: 'MCCHR Merchandise'
         field: category
         pattern: 'merchandise'
@@ -145,7 +144,6 @@ collections:
         name: 'keywords'
         widget: 'list'
         required: false
-    summary: "**{{title}}** --- *{{commit_author}} &middot; {{date | date('YYYY-MM-DD')}}*"
     sortable_fields: 
       - title
       - date
@@ -176,7 +174,6 @@ collections:
         widget: 'string'
         pattern: ['^[a-zA-Z0-9_.-]*$', 'Letters and numbers only']
         hint: 'What is the path on mcchr.org do you want to use for this redirect?'
-    summary: "**{{title}}** --- *{{commit_author}} &middot; {{date | date('YYYY-MM-DD')}}*"
     sortable_fields: 
       - title
       - date
