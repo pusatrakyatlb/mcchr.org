@@ -7,9 +7,9 @@ public_folder: /media
 site_url: https://hugo.mcchr.org
 display_url: https://hugo.mcchr.org
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: 'posts'
+    label: 'Posts'
+    folder: 'content'
     create: true
     slug: '{{slug}}'
     editor:
