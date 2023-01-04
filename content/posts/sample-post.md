@@ -1,10 +1,10 @@
 ---
 title: Sample post
-cover: /media/hello.jpg
-description: lalala
-date: 2023-01-04T03:15:39.785Z
+cover: ""
 tag:
   - education
 category: campaigns
+date: 2023-01-04T03:15:39.785Z
+description: lalala
 ---
 t﻿his is a post
