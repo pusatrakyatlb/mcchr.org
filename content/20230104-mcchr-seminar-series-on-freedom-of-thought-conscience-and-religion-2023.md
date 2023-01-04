@@ -1,6 +1,6 @@
 ---
 type: post
-title: MCCHR Seminar Series on Freedom of Thought, Conscience, and Religion 2023
+title: MCCHR Seminar Series on Freedom of Thought, Conscience, and Religion
 tag:
   - litigation
 category: training
