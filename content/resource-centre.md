@@ -7,6 +7,6 @@ aliases:
   - resources
   - rc
   - space
-  - ""
+  - library
 ---
 M﻿CCHR Resource Centre
