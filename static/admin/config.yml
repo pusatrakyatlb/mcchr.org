@@ -56,24 +56,24 @@ collections:
     editor:
       preview: false
     fields:
-      - label: 'Title', 
-        name: 'title', 
+      - label: 'Title'
+        name: 'title' 
         widget: 'string'
-      - label: 'Body', 
-        name: 'body', 
+      - label: 'Body'
+        name: 'body' 
         widget: 'markdown'
-      - label: 'Blurb', 
-        name: 'description', 
+      - label: 'Blurb'
+        name: 'description'
         widget: 'string'
-      - label: 'Cover Image', 
-        name: 'cover', 
-        widget: 'image', 
+      - label: 'Cover Image'
+        name: 'cover'
+        widget: 'image'
         default: 'media/hello.jpg'
-      - label: 'Date & Time', 
-        name: 'date', 
+      - label: 'Date & Time'
+        name: 'date'
         widget: 'datetime'
-      - label: 'Aliases', 
-        name: 'aliases', 
+      - label: 'Aliases'
+        name: 'aliases'
         widget: 'list'
     sortable_fields: 
       - title
