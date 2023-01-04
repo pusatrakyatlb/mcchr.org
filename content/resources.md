@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: Resource Centre
 description: A community space and library for human rights advocacy
 keywords:
   - space
