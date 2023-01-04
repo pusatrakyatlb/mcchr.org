@@ -41,15 +41,19 @@ collections:
           - { label: 'Civic Education', value: 'education' }
           - { label: 'Strategic Litigation', value: 'litigation' }
           - { label: 'Law & Policy Reform', value: 'reform' }
+        required: false
       - label: 'Category'
         name: 'category'
         widget: 'select'
         options:
           - { label: 'MCCHR Updates', value: 'updates' }
-          - { label: 'MCCHR Events', value: 'events' }
-          - { label: 'MCCHR Publications', value: 'publications' }
           - { label: 'MCCHR Campaigns', value: 'campaigns' }
+          - { label: 'MCCHR Events', value: 'events' }
+          - { label: 'MCCHR Training', value: 'training' }
+          - { label: 'MCCHR Publications', value: 'publications' }
+          - { label: 'MCCHR Merchandise', value: 'merchandise' }
           - { label: 'Human Rights News', value: 'news' }
+        required: false
       - label: 'Date & Time'
         name: 'date'
         widget: 'datetime'
