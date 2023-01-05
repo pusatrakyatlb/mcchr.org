@@ -232,6 +232,7 @@ collections:
               - label: 'en'
                 name: 'en'
                 widget: 'object'
+                fields: 
                   - label: 'title'
                     name: 'title'
                     widget: 'string'
