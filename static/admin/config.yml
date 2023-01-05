@@ -286,7 +286,7 @@ collections:
         file: 'config/_default/languages.en.menu.toml'
         fields:
           - label: 'Main Navigation Menu'
-            name: 'languages.en.menu.main'
+            name: 'main'
             widget: 'list'
             summary: '{{fields.name}} - {{fields.url}}'
             fields:
@@ -300,7 +300,7 @@ collections:
                 name: 'url'
                 widget: 'string'
           - label: 'Action Buttons'
-            name: 'languages.en.menu.actions'
+            name: 'actions'
             widget: 'list'
             summary: '{{fields.name}} - {{fields.url}}'
             fields:
