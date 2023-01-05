@@ -155,18 +155,19 @@ collections:
       field: type
       value: redirect
     create: true
-    slug: '{{slug}}'
+    slug: 'redirect-{{fields.url}}'
     editor:
       preview: false
     show_preview_links: false
     search: false
+    summary: "/{{fields.url}} → {{fields.redirect}}"
     fields:
       - label: 'Type'
         name: 'type'
         widget: 'hidden'
         default: 'redirect'
       - label: 'Source Path'
-        name: 'title' 
+        name: 'url' 
         widget: 'string'
         pattern: ['^[a-zA-Z0-9_.-]*$', 'Letters and numbers only']
         hint: 'What is the path on that do you want to use?'
