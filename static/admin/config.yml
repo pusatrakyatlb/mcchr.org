@@ -8,7 +8,6 @@ media_folder: static/files
 public_folder: /files
 site_url: https://hugo.mcchr.org
 display_url: https://hugo.mcchr.org
-logo_url: https://static.mcchr.org/logo-mcchr-540x540.png
 collections:
   - name: 'posts'
     label: 'Content Posts'
