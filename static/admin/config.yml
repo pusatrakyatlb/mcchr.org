@@ -179,6 +179,10 @@ collections:
       - date
   - name: 'settings'
     label: 'Site Settings'
+    editor:
+      preview: false
+    show_preview_links: false
+    search: false
     files:
       - label: "General"
         name: "general"
