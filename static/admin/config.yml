@@ -186,7 +186,7 @@ collections:
     files:
       - label: "General Configurations"
         name: "general"
-        file: 'config.toml'
+        file: 'config/config.toml'
         fields:
           - label: 'Base URL'
             name: 'baseurl'
