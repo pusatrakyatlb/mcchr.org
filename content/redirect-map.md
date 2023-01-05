@@ -1,5 +1,5 @@
 ---
 type: redirect
-url: gmap
+url: map
 redirect: https://g.page/pusatrakyatlb
 ---
