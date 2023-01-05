@@ -1,24 +1,24 @@
-[[main]]
+[[languages.en.menu.main]]
 name = "Civic Education"
 url = "/education/"
 identifier = "education1"
 
-[[main]]
+[[languages.en.menu.main]]
 identifier = "litigation"
 name = "Strategic Litigation"
 url = "/litigation/"
 
-[[main]]
+[[languages.en.menu.main]]
 identifier = "reform"
 name = "Law & Policy Reform"
 url = "/reform/"
 
-[[main]]
+[[languages.en.menu.main]]
 identifier = "about"
 name = "About Us"
 url = "/about/"
 
-[[actions]]
+[[languages.en.menu.actions]]
 identifier = "support"
 name = "Support Us"
 url = "/support/"
