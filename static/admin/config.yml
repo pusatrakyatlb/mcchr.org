@@ -8,7 +8,7 @@ site_url: https://hugo.mcchr.org
 display_url: https://hugo.mcchr.org
 collections:
   - name: 'posts'
-    label: 'Posts'
+    label: 'Content Posts'
     label_singular: 'Post'
     folder: 'content'
     filter:
@@ -105,7 +105,7 @@ collections:
         field: category
         pattern: 'news'
   - name: 'sections'
-    label: 'Sections'
+    label: 'Content Sections'
     label_singular: 'Section'
     folder: 'content'
     filter:
@@ -148,7 +148,7 @@ collections:
       - title
       - date
   - name: 'redirects'
-    label: 'Redirects'
+    label: 'URL Redirects'
     label_singular: 'redirect'
     folder: 'content'
     filter:
