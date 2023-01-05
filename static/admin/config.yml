@@ -177,15 +177,15 @@ collections:
     sortable_fields: 
       - title
       - date
-  - name: 'settings'
-    label: 'Site Settings'
+  - name: 'config'
+    label: 'Site Configurations'
     editor:
       preview: false
     show_preview_links: false
     search: false
     files:
       - label: "General Configurations"
-        name: "config"
+        name: "general"
         file: 'config-transition.toml'
         fields:
           - label: 'Base URL'
