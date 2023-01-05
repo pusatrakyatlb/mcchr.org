@@ -4,6 +4,8 @@ backend:
   branch: netlifycms
 media_folder: static/media
 public_folder: /media
+site_url: https://hugo.mcchr.org
+display_url: https://hugo.mcchr.org
 collections:
   - name: 'posts'
     label: 'Content Posts'
@@ -288,9 +290,6 @@ collections:
                         widget: 'list'
                         summary: '{{fields.name}} - {{fields.url}}'
                         fields:
-                          - label: 'identifier'
-                            name: 'identifier'
-                            widget: 'string'
                           - label: 'name'
                             name: 'name'
                             widget: 'string'
@@ -302,9 +301,6 @@ collections:
                         widget: 'list'
                         summary: '{{fields.name}} - {{fields.url}}'
                         fields:
-                          - label: 'identifier'
-                            name: 'identifier'
-                            widget: 'string'
                           - label: 'name'
                             name: 'name'
                             widget: 'string'
