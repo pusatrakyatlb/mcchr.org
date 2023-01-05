@@ -18,3 +18,28 @@ url = "/showcase"
 identifier = "dsfsdfds"
 name = "dsfdsfsd"
 url = "fsdfsdfsd"
+
+[[main]]
+name = "Civic Education"
+url = "/education/"
+identifier = "education"
+
+[[main]]
+identifier = "litigation"
+name = "Strategic Litigation"
+url = "/litigation/"
+
+[[main]]
+identifier = "reform"
+name = "Law & Policy Reform"
+url = "/reform/"
+
+[[main]]
+identifier = "about"
+name = "About Us"
+url = "/about/"
+
+[[actions]]
+identifier = "support"
+name = "Support Us"
+url = "/support/"
