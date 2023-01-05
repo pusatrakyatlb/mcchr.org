@@ -24,14 +24,3 @@ readOtherPosts = "Read other posts"
 [languages.en.params.logo]
 logoText = "Terminal"
 logoHomeLink = "/"
-
-[languages.en.menu]
-[[languages.en.menu.main]]
-identifier = "about"
-name = "About"
-url = "/about"
-
-[[languages.en.menu.main]]
-identifier = "showcase"
-name = "Showcase"
-url = "/showcase"

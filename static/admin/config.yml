@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: pusatrakyatlb/mcchr.org
-  branch: main
+  branch: netlifycms
 media_folder: static/media
 public_folder: /media
 site_url: https://hugo.mcchr.org
@@ -281,21 +281,29 @@ collections:
                             name: 'logoHomeLink'
                             widget: 'string'
                             default: '/'
-                  - label: 'Menus'
-                    name: 'menu'
-                    widget: 'object'
-                    fields: 
-                      - label: 'Main Menu'
-                        name: 'main'
-                        widget: 'list'
-                        summary: '{{fields.name}} - {{fields.url}}'
-                        fields:
-                          - label: 'identifier'
-                            name: 'identifier'
-                            widget: 'string'
-                          - label: 'name'
-                            name: 'name'
-                            widget: 'string'
-                          - label: 'url'
-                            name: 'url'
-                            widget: 'string'
+      - label: "Navigation Menus"
+        name: "menu"
+        file: 'config/menu.toml'
+        fields:
+          - label: 'English'
+            name: 'languages.en'
+            widget: 'object'
+            fields: 
+              - label: 'Menus'
+                name: 'menu'
+                widget: 'object'
+                fields: 
+                  - label: 'Main Menu'
+                    name: 'main'
+                    widget: 'list'
+                    summary: '{{fields.name}} - {{fields.url}}'
+                    fields:
+                      - label: 'identifier'
+                        name: 'identifier'
+                        widget: 'string'
+                      - label: 'name'
+                        name: 'name'
+                        widget: 'string'
+                      - label: 'url'
+                        name: 'url'
+                        widget: 'string'
