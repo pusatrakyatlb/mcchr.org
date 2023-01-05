@@ -8,8 +8,8 @@ site_url: https://hugo.mcchr.org
 display_url: https://hugo.mcchr.org
 collections:
   - name: 'posts'
-    label: 'Posts'
-    label_singular: 'Post'
+    label: 'Content Posts'
+    label_singular: 'Content Post'
     folder: 'content'
     filter:
       field: type
@@ -105,8 +105,8 @@ collections:
         field: category
         pattern: 'news'
   - name: 'sections'
-    label: 'Sections'
-    label_singular: 'Section'
+    label: 'Content Sections'
+    label_singular: 'Content Section'
     folder: 'content'
     filter:
       field: type
@@ -148,8 +148,8 @@ collections:
       - title
       - date
   - name: 'redirects'
-    label: 'Redirects'
-    label_singular: 'redirect'
+    label: 'URL Redirects'
+    label_singular: 'URL Redirect'
     folder: 'content'
     filter:
       field: type
@@ -177,3 +177,133 @@ collections:
     sortable_fields: 
       - title
       - date
+  - name: 'config'
+    label: 'Site Configurations'
+    editor:
+      preview: false
+    show_preview_links: false
+    search: false
+    files:
+      - label: "General Configurations"
+        name: "general"
+        file: 'config.toml'
+        fields:
+          - label: 'Base URL'
+            name: 'baseurl'
+            widget: 'hidden'
+            default: '/'
+          - label: 'Default Language'
+            name: 'languageCode'
+            widget: 'string'
+            default: 'en'
+          - label: 'Theme'
+            name: 'theme'
+            widget: 'string'
+          - label: 'Pagination'
+            name: 'paginate'
+            widget: 'string'
+            default: 20
+            pattern: ['^[1-9]\d*$', 'Integer more than zero']
+          - label: 'Parameters'
+            name: 'params'
+            widget: 'object'
+            fields: 
+              - label: 'Content Type'
+                name: 'contentTypeName'
+                widget: 'string'
+                default: 'posts'
+              - label: 'Theme Colour'
+                name: 'themeColor'
+                widget: 'string'
+                default: 'orange'
+              - label: 'Show Menu Items'
+                name: 'showMenuItems'
+                widget: 'string'
+                default: 2
+                pattern: ['^[1-9]\d*$', 'Integer more than zero']
+              - label: 'fullWidthTheme'
+                name: 'fullWidthTheme'
+                widget: 'boolean'
+                default: true
+              - label: 'centerTheme'
+                name: 'centerTheme'
+                widget: 'boolean'
+                default: true
+          - label: 'Localization'
+            name: 'languages'
+            widget: 'object'
+            fields: 
+              - label: 'English'
+                name: 'en'
+                widget: 'object'
+                fields: 
+                  - label: 'Site Title'
+                    name: 'title'
+                    widget: 'string'
+                    default: 'Terminal'
+                  - label: 'Site Tagline'
+                    name: 'subtitle'
+                    widget: 'string'
+                    default: 'A simple, retro theme for Hugo'
+                  - label: 'Keywords'
+                    name: 'keywords'
+                    widget: 'string'
+                    required: false
+                  - label: 'Copyright Statement'
+                    name: 'copyright'
+                    widget: 'string'
+                    required: false
+                  - label: 'Label for Show More Menu'
+                    name: 'menuMore'
+                    widget: 'string'
+                    default: 'Show more'
+                  - label: 'Label for Read More Content'
+                    name: 'readMore'
+                    widget: 'string'
+                    default: 'Read more'
+                  - label: 'Label for Read Other Content'
+                    name: 'readOtherPosts'
+                    widget: 'string'
+                    default: 'Read other posts'
+                  - label: 'Parameters'
+                    name: 'params'
+                    widget: 'object'
+                    fields: 
+                      - label: 'Logo'
+                        name: 'logo'
+                        widget: 'object'
+                        fields: 
+                          - label: 'Logo Text'
+                            name: 'logoText'
+                            widget: 'string'
+                            default: 'Terminal'
+                          - label: 'Logo Home Link'
+                            name: 'logoHomeLink'
+                            widget: 'string'
+                            default: '/'
+                  - label: "Navigation Menus"
+                    name: "menu"
+                    widget: 'object'
+                    fields:
+                      - label: 'Main Navigation'
+                        name: 'main'
+                        widget: 'list'
+                        summary: '{{fields.name}} - {{fields.url}}'
+                        fields:
+                          - label: 'name'
+                            name: 'name'
+                            widget: 'string'
+                          - label: 'url'
+                            name: 'url'
+                            widget: 'string'
+                      - label: 'Action Buttons'
+                        name: 'actions'
+                        widget: 'list'
+                        summary: '{{fields.name}} - {{fields.url}}'
+                        fields:
+                          - label: 'name'
+                            name: 'name'
+                            widget: 'string'
+                          - label: 'url'
+                            name: 'url'
+                            widget: 'string'
