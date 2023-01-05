@@ -24,7 +24,7 @@ readOtherPosts = "Read other posts"
 [languages.en.params]
 
 [languages.en.params.logo]
-logoText = "MCCHR – Malaysian Centre for Constitutionalism and Human Rights"
+logoText = "MCCHR"
 logoHomeLink = "/"
 
 [languages.en.menu]
