@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: pusatrakyatlb/mcchr.org
-  branch: netlifycms
+  branch: main
 media_folder: static/media
 public_folder: /media
 site_url: https://hugo.mcchr.org
