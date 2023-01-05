@@ -1,5 +1,5 @@
 ---
 type: redirect
 url: map
-redirect: https://g.page/pusatrakyatlb
+redirect_url: https://g.page/pusatrakyatlb
 ---

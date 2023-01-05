@@ -1,5 +1,5 @@
 ---
 type: redirect
 url: email
-redirect: mailto:pusatrakyatlb@mcchr.org
+redirect_url: mailto:pusatrakyatlb@mcchr.org
 ---

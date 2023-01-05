@@ -1,5 +1,6 @@
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-{{ if isset .Params "redirect" }}
-<meta http-equiv="refresh" content="0; url={{ printf "%s" $.Params.redirect }}">
+{{ if isset .Params "redirect_url" }}
+<script>
+  document.title = 'Redirecting...'; 
+</script>
+<meta http-equiv="refresh" content="0; url={{ printf "%s" $.Params.redirect_url }}">
 {{ end }}

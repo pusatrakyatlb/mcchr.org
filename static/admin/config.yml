@@ -2,10 +2,13 @@ backend:
   name: github
   repo: pusatrakyatlb/mcchr.org
   branch: main
-media_folder: static/media
-public_folder: /media
+  base_url: https://hugo.mcchr.org
+  auth_endpoint: /api/auth
+media_folder: static/files
+public_folder: /files
 site_url: https://hugo.mcchr.org
 display_url: https://hugo.mcchr.org
+logo_url: https://static.mcchr.org/logo-mcchr-540x540.png
 collections:
   - name: 'posts'
     label: 'Content Posts'
@@ -156,25 +159,26 @@ collections:
       value: redirect
     create: true
     slug: '[REDIRECT] {{year}}{{month}}{{day}}{{hour}}{{minute}}{{second}} {{fields.url}}'
+    preview_path: '{{fields.redirect_url}}'
     editor:
       preview: false
     show_preview_links: false
     search: false
-    summary: "/{{fields.url}} → {{fields.redirect}}"
+    summary: "/{{fields.url}} → {{fields.redirect_url}}"
     fields:
       - label: 'Type'
         name: 'type'
         widget: 'hidden'
         default: 'redirect'
       - label: 'Source Path'
-        name: 'url' 
+        name: 'url'
         widget: 'string'
-        pattern: ['^[a-zA-Z0-9_.-]*$', 'Letters and numbers only']
-        hint: 'What is the path on that do you want to use?'
+        pattern: ['^[a-zA-Z0-9_.-]*$', 'Alphanumeric characters only']
+        comment: 'What is the path that do you want to use?'
       - label: 'Target URL'
-        name: 'redirect' 
+        name: 'redirect_url' 
         widget: 'string'
-        hint: 'To what URL do you want to redirect?'
+        comment: 'To what URL do you want to redirect?'
     sortable_fields: 
       - title
       - date

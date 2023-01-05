@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://mcchr.org/"
 languageCode = "en"
 theme = "terminal"
 paginate = 5
