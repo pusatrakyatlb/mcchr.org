@@ -7,29 +7,49 @@ paginate = 5
 contentTypeName = "posts"
 themeColor = "orange"
 showMenuItems = 2
-fullWidthTheme = false
-centerTheme = false
+fullWidthTheme = true
+centerTheme = true
 
 [languages]
+
 [languages.en]
-title = "Terminal"
-subtitle = "A simple, retro theme for Hugo"
-keywords = ""
 copyright = ""
-menuMore = "Show more"
+keywords = ""
 readMore = "Read more"
+menuMore = "Show more"
+subtitle = "A simple, retro theme for Hugo"
+title = "Terminal"
 readOtherPosts = "Read other posts"
+
+[languages.en.params]
 
 [languages.en.params.logo]
 logoText = "Terminal"
 logoHomeLink = "/"
 
 [languages.en.menu]
+
+[[languages.en.menu.main]]
+identifier = "education"
+name = "Civic Education"
+url = "/education/"
+
+[[languages.en.menu.main]]
+identifier = "litigation"
+name = "Strategic Litigation"
+url = "/litigation/"
+
+[[languages.en.menu.main]]
+identifier = "reform"
+name = "Law & Policy Reform"
+url = "/reform/"
+
 [[languages.en.menu.main]]
 identifier = "about"
-name = "About"
-url = "/about"
-[[languages.en.menu.main]]
-identifier = "showcase"
-name = "Showcase"
-url = "/showcase"
+name = "About Us"
+url = "/about/"
+
+[[languages.en.menu.actions]]
+identifier = "support"
+name = "Support Us"
+url = "/support/"
