@@ -9,7 +9,7 @@ display_url: https://hugo.mcchr.org
 collections:
   - name: 'posts'
     label: 'Content Posts'
-    label_singular: 'Post'
+    label_singular: 'Content Post'
     folder: 'content'
     filter:
       field: type
@@ -106,7 +106,7 @@ collections:
         pattern: 'news'
   - name: 'sections'
     label: 'Content Sections'
-    label_singular: 'Section'
+    label_singular: 'Content Section'
     folder: 'content'
     filter:
       field: type
@@ -149,7 +149,7 @@ collections:
       - date
   - name: 'redirects'
     label: 'URL Redirects'
-    label_singular: 'redirect'
+    label_singular: 'URL Redirect'
     folder: 'content'
     filter:
       field: type
@@ -186,8 +186,7 @@ collections:
     files:
       - label: "General Configurations"
         name: "general"
-        file: 'config-transition.toml'
-        extension: 'toml'
+        file: 'config.toml'
         fields:
           - label: 'Base URL'
             name: 'baseurl'
