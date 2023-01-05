@@ -155,7 +155,7 @@ collections:
       field: type
       value: redirect
     create: true
-    slug: '[REDIRECT] {{fields.url}}'
+    slug: '[REDIRECT] {{year}}{{month}}{{day}}{{hour}}{{minute}}{{second}} {{fields.url}}'
     editor:
       preview: false
     show_preview_links: false
