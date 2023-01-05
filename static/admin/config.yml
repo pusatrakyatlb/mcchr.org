@@ -179,7 +179,6 @@ collections:
       - date
   - name: 'settings'
     label: 'Site Settings'
-    file: 'config-transition.toml'
     editor:
       preview: false
     show_preview_links: false
@@ -187,7 +186,7 @@ collections:
     files:
       - label: "General"
         name: "general"
-        file: "config-transition"
+        file: 'config-transition.toml'
         fields:
           - label: 'Base URL'
             name: 'baseurl'
