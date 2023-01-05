@@ -1,5 +1,5 @@
 ---
 type: redirect
-url: map
+url: twitter
 redirect: https://g.page/pusatrakyatlb
 ---
