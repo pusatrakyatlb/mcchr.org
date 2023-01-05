@@ -184,8 +184,8 @@ collections:
     show_preview_links: false
     search: false
     files:
-      - label: "General"
-        name: "general"
+      - label: "General Configurations"
+        name: "config"
         file: 'config-transition.toml'
         fields:
           - label: 'Base URL'
