@@ -5,7 +5,7 @@ paginate = 5
 
 [params]
 contentTypeName = "posts"
-themeColor = "orange"
+themeColor = "#dc162b"
 showMenuItems = "100"
 fullWidthTheme = false
 centerTheme = true
@@ -17,14 +17,14 @@ copyright = ""
 keywords = ""
 readMore = "Read more"
 menuMore = "Show more"
-subtitle = "A simple, retro theme for Hugo"
-title = "Terminal"
+subtitle = "Malaysian Centre for Constitutionalism and Human Rights"
+title = "MCCHR"
 readOtherPosts = "Read other posts"
 
 [languages.en.params]
 
 [languages.en.params.logo]
-logoText = "Terminal"
+logoText = "MCCHR – Malaysian Centre for Constitutionalism and Human Rights"
 logoHomeLink = "/"
 
 [languages.en.menu]
