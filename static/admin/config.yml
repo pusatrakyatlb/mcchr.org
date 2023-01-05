@@ -186,7 +186,7 @@ collections:
     files:
       - label: "General Configurations"
         name: "general"
-        file: 'config/config.toml'
+        file: 'config/_default/config.toml'
         fields:
           - label: 'Base URL'
             name: 'baseurl'
@@ -283,7 +283,7 @@ collections:
                             default: '/'
       - label: "English Navigation Menus"
         name: "languages.en.menu"
-        file: 'config/languages.en.menu.toml'
+        file: 'config/_default/languages.en.menu.toml'
         fields:
           - label: 'Main Navigation Menu'
             name: 'languages.en.menu.main'
