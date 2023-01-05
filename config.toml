@@ -30,6 +30,11 @@ logoHomeLink = "/"
 [languages.en.menu]
 
 [[languages.en.menu.main]]
+identifier = "about"
+name = "About Us"
+url = "/about/"
+
+[[languages.en.menu.main]]
 identifier = "education"
 name = "Civic Education"
 url = "/education/"
@@ -43,11 +48,6 @@ url = "/litigation/"
 identifier = "reform"
 name = "Law & Policy Reform"
 url = "/reform/"
-
-[[languages.en.menu.main]]
-identifier = "about"
-name = "About Us"
-url = "/about/"
 
 [[languages.en.menu.actions]]
 identifier = "support"
