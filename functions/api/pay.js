@@ -13,7 +13,7 @@
 
 const Stripe = require("stripe");
 
-const stripe = Stripe(STRIPE_API_KEY, {
+const stripe = Stripe(STRIPE_API_SECRET_TEST, {
   httpClient: Stripe.createFetchHttpClient()
 });
 
